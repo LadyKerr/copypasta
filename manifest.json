@@ -7,5 +7,12 @@
   "action": {
     "default_icon": "images/copy-pasta.png",
     "default_title": "CopyPasta"
-    }
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*/*"],
+        "js": ["scripts/enablePaste.js"],
+        "run_at": "document_start"
+      }
+    ]
   }
