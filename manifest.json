@@ -1,0 +1,11 @@
+{
+    "manifest_version": 1,
+    "name": "CopyPasta",
+    "author": "LadyKerr",
+    "description": "Enable pasting on sites that disable the default pasting behavior",
+    "version": "1.0",
+    "action": {
+      "default_icon": "images/copy-pasta.png",
+      "default_title": "CopyPasta"
+    }
+  }
