@@ -1,6 +1,7 @@
 {
   "name": "CopyPasta",  
   "version": "1.0.0",
+  "manifest_version": 3,
   "author": "LadyKerr",
   "description": "Enable pasting on sites that disable the default pasting behavior",
   "action": {
